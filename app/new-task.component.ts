@@ -9,6 +9,7 @@ import {Task} from './task.model';
     <h3>Create Task:</h3>
     <input placeholder="Description" class="col-sm-8 input-lg" #newDescription>
     <button (click)="addTask(newDescription)">Add</button>
+    <button (click)="deleteTask(taskId)">Delete</button>
   </div>
   `
 
